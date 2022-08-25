@@ -24,7 +24,7 @@ app.get('/', (req, res) => {
 });
 //BREADS
 const breadsController = require('./controllers/breads_controller');
-app.use('/Bread', breadsController);
+app.use('/breads', breadsController);
 
 // LISTEN
 app.listen(PORT, () => {
